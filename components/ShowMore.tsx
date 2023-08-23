@@ -16,7 +16,7 @@ const ShowMore = ({ pageNumber, isNext, setLimit }: ShowMoreProps) => {
     setLimit(newLimit);
   };
   return (
-    <div className="w-full flex-center gap-5 mt-10">
+    <div className="w-full flex-center gap-5 mt-12">
       {!isNext && (
         <CustomButton
           title="Show More"
