@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Navbar, Footer } from "@/components";
 
 export const metadata: Metadata = {
-  title: "Car Hubq",
+  title: "Car Hub",
   description: "Discover the best cars in the world",
 };
 
